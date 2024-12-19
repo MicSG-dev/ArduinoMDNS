@@ -3,8 +3,8 @@
 This is a mDNS Library for Arduino based on the [arduino-libraries/ArduinoMDNS](https://github.com/arduino-libraries/ArduinoMDNS) fork with bug fixes.
 
 ## Fixed bugs:
-- memory allocation in the mDNS service record function (`addServiceRecord`). See source: https://github.com/arduino-libraries/ArduinoMDNS/pull/23;
-- insufficient memory allocation for the number of characters in the text WITHOUT the terminating null character. See source: https://github.com/arduino-libraries/ArduinoMDNS/issues/36;
+- Memory allocation in the mDNS service record function (`addServiceRecord`). See source: https://github.com/arduino-libraries/ArduinoMDNS/pull/23;
+- Insufficient memory allocation for the number of characters in the text WITHOUT the terminating null character. See source: https://github.com/arduino-libraries/ArduinoMDNS/issues/36;
 - The service query message attaches some data that should not be transmitted. See source: https://github.com/arduino-libraries/ArduinoMDNS/pull/8;
 
 ## More about [arduino-libraries/ArduinoMDNS](https://github.com/arduino-libraries/ArduinoMDNS)

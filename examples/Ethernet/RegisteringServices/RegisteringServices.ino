@@ -23,7 +23,7 @@
 #include <SPI.h>
 #include <Ethernet.h>
 #include <EthernetUdp.h>
-#include <ArduinoMDNS.h>
+#include <ArduinoMDNS2.h>
 
 EthernetUDP udp;
 MDNS mdns(udp);

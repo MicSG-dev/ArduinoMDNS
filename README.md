@@ -1,4 +1,4 @@
-# ArduinoMDNS
+# ArduinoMDNS2
 
 Fixed bugs in:
 - memory allocation in the mDNS service record function (`addServiceRecord`). See source: https://github.com/arduino-libraries/ArduinoMDNS/pull/23;
